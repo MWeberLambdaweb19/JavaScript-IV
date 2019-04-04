@@ -23,10 +23,10 @@ const cortana = new Person({
     location: "Halo Infinite",
     gender: "Ambiguous due to being an AI, represented as female"
 });
-//console.log(john117.age);
-//console.log(cortana.gender);
-//console.log(john117.speak());
-//console.log(cortana.speak());
+console.log(john117.age);
+console.log(cortana.gender);
+console.log(john117.speak());
+console.log(cortana.speak());
 // INSTRUCTOR CLASS
 class Instructor extends Person {
     constructor(teacherAttributes){
@@ -173,31 +173,27 @@ const js = "Javascript";
 const rt = "React";
 const html = "Hyper Text Markup Language";
 const css = "Cascading Style Sheets";
-// STRETCH FUNCTIONS HERE
-// function pointsforgrade(min, max) {
-//     Math.floor(Math.random() * (max - min) + min);
-// }
 
 // TESTING INSTRUCTOR, PM, AND STUDENT 1 HERE
-// console.log(instruct1.demo(js));
-// console.log(student1.PRAssignment(js));
-// console.log(proman1.standUp(proman1Channel));
-// console.log(proman1.standUp(helpChannel));
-// console.log(proman1.standUp(sprintChannel));
-// console.log(student1.listsSubjects());
-// console.log(proman1.gradePRAssignment(student1, js));
-// console.log(student1.sprintChallenge(js));
-// console.log(proman1.debugsCode(student1, js));
-// console.log(instruct1.gradeSprintChallenge(student1, js));
+console.log(instruct1.demo(js));
+console.log(student1.PRAssignment(js));
+console.log(proman1.standUp(proman1Channel));
+console.log(proman1.standUp(helpChannel));
+console.log(proman1.standUp(sprintChannel));
+console.log(student1.listsSubjects());
+console.log(proman1.gradePRAssignment(student1, js));
+console.log(student1.sprintChallenge(js));
+console.log(proman1.debugsCode(student1, js));
+console.log(instruct1.gradeSprintChallenge(student1, js));
 // TESTING INSTRUCTOR, PM, AND STUDENT 2 HERE
-// console.log(instruct2.demo(html));
-// console.log(student2.PRAssignment(html));
-// console.log(proman2.standUp(proman2Channel));
-// console.log(student2.listsSubjects());
-// console.log(proman2.gradePRAssignment(student2, html));
-// console.log(student2.sprintChallenge(html));
-// console.log(proman2.debugsCode(student2, html));
-// console.log(instruct2.gradeSprintChallenge(student2, html));
+console.log(instruct2.demo(html));
+console.log(student2.PRAssignment(html));
+console.log(proman2.standUp(proman2Channel));
+console.log(student2.listsSubjects());
+console.log(proman2.gradePRAssignment(student2, html));
+console.log(student2.sprintChallenge(html));
+console.log(proman2.debugsCode(student2, html));
+console.log(instruct2.gradeSprintChallenge(student2, html));
 
 // STRETCH LOGS HERE
 console.log(student1.gradePercent);
